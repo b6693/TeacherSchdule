@@ -21,6 +21,16 @@ namespace UI
             var sel = comboBox1.SelectedValue;
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
         //private void button2_Click(object sender, EventArgs e)
         //{
         //    BL.TeacherBL teacherBL = new BL.TeacherBL();

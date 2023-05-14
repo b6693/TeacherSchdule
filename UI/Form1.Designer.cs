@@ -57,21 +57,20 @@
             // 
             // button2
             // 
-            //this.button2.Location = new System.Drawing.Point(321, 53);
-            //this.button2.Name = "button2";
-            //this.button2.Size = new System.Drawing.Size(212, 29);
-            //this.button2.TabIndex = 2;
-            //this.button2.Text = "show group by school id";
-            //this.button2.UseVisualStyleBackColor = true;
+            this.button2.Location = new System.Drawing.Point(507, 53);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(220, 29);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "show groups by school id";
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // comboBox1
             // 
-            //this.comboBox1.FormattingEnabled = true;
-            //this.comboBox1.Location = new System.Drawing.Point(587, 58);
-            //this.comboBox1.Name = "comboBox1";
-            //this.comboBox1.Size = new System.Drawing.Size(151, 28);
-            //this.comboBox1.TabIndex = 3;
-            //this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.comboBox1.Location = new System.Drawing.Point(351, 54);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 28);
+            this.comboBox1.TabIndex = 0;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged_1);
             // 
             // Form1
             // 
