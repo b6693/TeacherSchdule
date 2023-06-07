@@ -10,6 +10,6 @@ namespace DTO
     {
         public int SchoolId { get; set; }
 
-        public string SchoolName { get; set; } = null!;
+        public string Name { get; set; } = null!;
     }
 }

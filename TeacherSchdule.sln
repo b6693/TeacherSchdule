@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BL", "BL\BL.csproj", "{AF6D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{7560575B-B532-44A8-8698-618FD41C19BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{511D3E36-73FA-4784-9E78-13047BBAC3B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTO", "DTO\DTO.csproj", "{511D3E36-73FA-4784-9E78-13047BBAC3B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{2AB0DEEE-FE5F-42B0-918E-1B76BFD84526}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{511D3E36-73FA-4784-9E78-13047BBAC3B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{511D3E36-73FA-4784-9E78-13047BBAC3B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{511D3E36-73FA-4784-9E78-13047BBAC3B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AB0DEEE-FE5F-42B0-918E-1B76BFD84526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AB0DEEE-FE5F-42B0-918E-1B76BFD84526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AB0DEEE-FE5F-42B0-918E-1B76BFD84526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AB0DEEE-FE5F-42B0-918E-1B76BFD84526}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

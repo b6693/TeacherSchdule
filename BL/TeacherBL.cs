@@ -10,8 +10,9 @@ namespace BL
 {
     public class TeacherBL
     {
-        public List<School> GetSchools()
+        public List<DTO.SchoolDTO> GetSchools()
         {
+
             return new TeacherDAL().GetSchools();
         }
 
